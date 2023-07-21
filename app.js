@@ -35,6 +35,6 @@ app.use("/api",productRoute)
 app.use("/api",braintreeRoute)
  app.use("/api",orderRoute)
 const port = process.env.PORT || 8000
-app.listen(port, () => {
+app.listen(port,"0.0.0.0", () => {
     console.log(`listening from the port ${port}`)
 })
