@@ -6,9 +6,9 @@ This project uses the following environment variables:
 
 | Name       | Description          | Default Value |
 | ---------- | -------------------- | ------------- |
-| PORT       | Cors accepted values | "8000"        |
-| MONGO_URL  | Cors accepted values | "\*"          |
-| JWT_SECRET | Cors accepted values | "\*"          |
+| PORT       | Port Accepted values | "8000"        |
+| MONGO_URL  | Your mongo URI       | "\*"          |
+| JWT_SECRET | Your JWT Secret      | "\*"          |
 
 # Pre-requisites
 
